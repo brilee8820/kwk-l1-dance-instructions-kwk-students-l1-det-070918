@@ -6,12 +6,12 @@ end
 def base_footwork
   puts "lift right foot" 
   puts "return right foot to the ground"
-  puts "finishing with a small skip-step backward"
+  skip_step("left foot")
 end
-def skip-step
+def skip_step(starting_foot)
   puts "lower #{starting_foot} left too the ground"
   puts "bounce #{starting_foot} left foot back up slightly, kicking it a few inches back"
-  puts "left, right, left and left"
+  puts "briefly raise the opposite foot, then the #{starting_foot} twice more"
 end
 def bob_the_reins
   puts "holding your arms out in front of you, straight and at chest level"
@@ -30,9 +30,9 @@ end
 def gangnam_style
   puts starting_stance
   puts base_footwork
-  puts skip-step("left")
-  puts skip-step("right")
+  puts skip-step("right foot")
   puts bob_the_reins
+  puts skip-step("left foot")
   puts lasso
   puts bust_a_move
 end
