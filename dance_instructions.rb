@@ -10,7 +10,7 @@ def base_footwork
 end
 def skip_step(starting_foot)
   puts "Lower #{starting_foot} left too the ground"
-  puts "bounce #{starting_foot} left foot back up slightly, kicking it a few inches back"
+  puts "Bounce #{starting_foot} left foot back up slightly, kicking it a few inches back"
   puts "briefly raise the opposite foot, then the #{starting_foot} twice more"
 end
 def bob_the_reins
