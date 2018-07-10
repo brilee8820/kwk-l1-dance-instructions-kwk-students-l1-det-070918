@@ -8,12 +8,12 @@ def base_footwork
   puts "return right foot to the ground"
   puts "finishing with a small skip-step backward"
 end
-def skip-step
+def skip-step(left)
   puts "lower left too the ground"
   puts "bounce left foot back up slightly, kicking it a few inches back"
   puts "left, right, left and left"
 end
-def skip-step
+def skip-step(right)
   puts "lower right foot to the ground"
   puts "bounce right foot back up slightly, kicking it a few inches back"
   puts "right, left, right and right"
@@ -33,4 +33,11 @@ def bust_a_move
   puts "be snazzy!"
 end
 def gangnam_style
-  
+  puts starting_stance
+  puts base_footwork
+  puts skip-step(left)
+  puts skip-step(right)
+  puts bob_the_reins
+  puts lasso
+  puts bust_a_move
+end
